@@ -1,5 +1,8 @@
 ### Hi there 👋
-This is used for [github].(http://cs.uml.edu/~tyoeuth/) 
+
+Everything is in the gh=pages branch.
+
+Website is: [tayloryoeuth](https://tayloryoeuth.github.io/tayloryoeuth/).
 <!--
 **tayloryoeuth/tayloryoeuth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

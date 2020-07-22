@@ -1,0 +1,47 @@
+/* 
+  Taylor Bunpeara Yoeuth
+  taylor_yoeuth@student.uml.edu
+  Currently an Undergrad Computer Science Student 
+  At UMass Lowell taking course 91.61 GUI Programming I.
+    The purpose of this webpage is to introduce myself to the basic techniques of creating webpages and to implement new techniques as the semester progresses. 
+    Created July 8th, 2020. 
+*/
+
+/*Sources used:
+  https://www.w3schools.com/css/default.asp 
+*/
+
+/*this is for the main title of the webpage*/
+  h1{
+    text-align: center;
+    font-size: 35pt;
+    border: solid black;
+    background-color: white;
+    }
+          
+/*this is styling the homework section of my webpage*/
+  .assignments{
+      border: 2px solid black;
+      background-color: white;
+      text-align: center;
+      border-width: 5px;
+      font-size: 16pt;
+      }
+  
+/*this is styling my image of myself*/
+  .taylor{
+    text-align: center;
+    }
+  
+/*this changes the background color */
+  body{background-color: deepskyblue;}
+  
+/*this makes my "disclaimer" align to the middle of my webpage*/
+  p{
+    text-align: center;
+    font-size: 16pt;
+    }
+    
+    
+    
+    

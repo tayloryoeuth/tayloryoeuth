@@ -4,57 +4,74 @@
   Currently an Undergrad Computer Science Student
   At UMass Lowell taking course 91.61 GUI Programming I.
     The purpose of this webpage is to introduce myself to the basic techniques of creating webpages and to implement new techniques as the semester progresses.
-    Created July 8th, 2020.
-  Passes validation for HTML only for (http://validator.nu/), the other one it says a timeout error.
+    Created July 22nd, 2020.
+  Hw4
 -->
 
 <!--Sources used:
-  https://www.w3schools.com/html/default.asp
--->
+  https://www.w3schools.com/bootstrap4/default.asp
 
+-->
 
 <!DOCTYPE html>
 <html lang="en">
- <head>
- <meta charset="utf-8">
- <link rel="stylesheet" href ="CSS/style.css">
-  <title>
-     Taylor's Website!
-  </title>
- </head>
- <body>
+<head>
+  <title>Taylor's Webpage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href ="HW4/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body class = "main">
 
-  <h1> <b>Taylor Yoeuth's Assignments</b> </h1>
+<div class="jumbotron text-center">
+  <h1>Taylor Yoeuth's Webpage</h1>
+</div>
 
-  <!-- about me section-->
-  <p>I am currently an undergrad student at <b>UMass Lowell</b> in course
-     <b>91.61 GUI Programming I.</b> I am Cambodian and I have a dog named Hunter. This webpage's purpose is to
-      showcase my homework assignments. </p>
+<div class="container">
+      <div class="taylor">
+        <img src = "taylor.jpg" class="mx-auto d-block" style="width:50%">
+</div>
 
-  <!--this is the class for my "profile page"-->
-  <div class="taylor">
-    <img src = "taylor.jpg" alt= "Picture of me" style="width:25%"/>
-
-    <p> <i>*Not all homework assignments are completed, they will be updated as the semester progresses!*</i> </p>
+<div class="container p-3 my-3 border bg-white text-black">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>About Me</h3>
+      <p>I am currently an undergrad student at <b>UMass Lowell</b> in course
+         <b>91.61 GUI Programming I.</b> I am Cambodian and I have a dog named Hunter. This webpage's purpose is to
+          showcase my homework assignments. </p>
+    </div>
+    <div class="col-sm-6">
+      <h3>Contact</h3>
+      <p>taylor_yoeuth@student.uml.edu</p>
+    </div>
   </div>
+</div>
 
-  <!--this is the class for my homework assignments-->
-  <ul class="assignments">
-    <li>
-      <a href="https://www.w3schools.com/html/html_links.asp">Homework 1 </a>
-    <li>
-      <a href="http://cs.uml.edu/~tyoeuth/">Homework 2 </a>
-    <li>
-      <a href="HW3_zip/HW3_sourceCode/index.html">Homework 3 </a>
-    <li>
-      <a href="HW4/index.html">Homework 4 </a>
-    <li>
-      <a href="http://cs.uml.edu/~tyoeuth/">Homework 5 </a>
-    <li>
-      <a href="http://cs.uml.edu/~tyoeuth/">Homework 6 </a>
-    <li>
-      <a href="http://cs.uml.edu/~tyoeuth/">Homework 7 </a>
+<!--this is the class for my homework assignments-->
+<div class="container pt-3 my-3 border bg-white text-black">
+  <div class="col-sm-8">
+  <h2>Homework Assignments</h2>
+  <p class="font-italic"> *THEY ARE ALL NOT UPDATED* </p>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="https://www.w3schools.com/html/html_links.asp" href="#">Homework 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="http://cs.uml.edu/~tyoeuth/" href="#">Homework 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="HW3_zip/HW3_sourceCode/index.html" href="#">Homework 3</a>
+    </li>
+    <li class="nav-item">
+      <a class="HW4/index.html" href="#">Homework 4</a>
+    </li>
   </ul>
+</div>
+</div>
 
   <!-- this is the W3C css validation-->
   <p>
@@ -65,7 +82,7 @@
     </a>
   </p>
 
-  <a href="https://github.com/you"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_gray_6d6d6d.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+  <a href="https://github.com/you"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_gray_6d6d6d.png?resize=149%2C149" class="attachment-full size-full" alt="GitHub" data-recalc-dims="1"></a>
 
  </body>
 </html>

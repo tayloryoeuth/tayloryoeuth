@@ -55,7 +55,7 @@ for(var i = bMultiplier; i <= eMultiplier; i++){
    rows += '<td>' + i + '</td>';
 
    // the multiplication between the numbers
-for(var j = bMultiplier; j <= eMultiplier; j++){
+   for(var j = bMultiplier; j <= eMultiplier; j++){
      rows += '<td>' + i*j + '</td>';
    }
    rows += '</tr>';

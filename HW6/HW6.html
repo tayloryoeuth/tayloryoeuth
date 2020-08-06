@@ -1,0 +1,51 @@
+<!--
+File: HW6: Creating an Interactive Dynamic Table; adding jQuery Validation
+Taylor Yoeuth
+Contact: taylor_yoeuth@student.uml.edu
+Currently an Undergrad Computer Science Student
+At UMass Lowell taking course 91.61 GUI Programming I.
+Created August 5,2020
+-->
+
+
+<!--Sources used:
+  https://www.w3schools.com/html/default.asp
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href ="style.css">
+  <title> HW6 </title>
+
+ </head>
+ <body>
+
+   <h1> Creating an Interactive Dynamic Table </h1>
+   <p> This assignment is to create a table the user specifies with a beginning multiplier and an
+     ending multiplier, and also a beginning multiplicand and ending multiplicand </p>
+ <form id ="form" onsubmit="return myFunction();">
+   <!-- <form id="form"> -->
+     <label for="bMultiplier">Beginning multiplier:</label><br>
+     <input type="text" id="bMultiplier" name="bMultiplier"><br>
+     <label for="eMultiplier">Ending multiplier:</label> <br>
+     <input type="text" id="eMultiplier" name="eMultiplier"><br>
+     <label for="bMultiplicand">Beginning multiplicand:</label> <br>
+     <input type="text" id="bMultiplicand" name="bMultiplicand"><br>
+     <label for="eMultiplicand">Ending multiplicand:</label> <br>
+     <input type="text" id="eMultiplicand" name="eMultiplicand"><br>
+     <input type="submit" id="btn" name="submit" value="submit">
+    <!-- 3.Next, add JavaScript code to read those four numbers when the Submit button is pressed (clicked) -->
+    <!-- <button type="button" onclick="myFunction()">Submit</button> -->
+  </form>
+
+<!-- this is the spot used for the table-->
+   <table id="multitable"> </table>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"> </script>
+   <script src="javascript.js"> </script>
+
+</body>
+</html>

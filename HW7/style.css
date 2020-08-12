@@ -1,0 +1,83 @@
+/*
+  Taylor Bunpeara Yoeuth
+  taylor_yoeuth@student.uml.edu
+  Currently an Undergrad Computer Science Student
+  At UMass Lowell taking course 91.61 GUI Programming I.
+    The purpose of this webpage is to introduce myself to the basic techniques of creating webpages and to implement new techniques as the semester progresses.
+    Created August 09,2020
+*/
+
+/*Sources used:
+  https://www.w3schools.com/css/default.asp
+*/
+
+body{
+  background-color: deepskyblue;
+}
+h1{
+  text-align: center;
+  font-size: 25pt;
+}
+form{
+  text-align: center;
+  margin: auto;
+}
+p{
+  text-align: center;
+  font-size: 18pt;
+}
+
+.multitable{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  font-size: 12pt;
+}
+td{
+  border:5px coral;
+  background-color: coral;
+}
+
+/*https://www.w3.org/wiki/CSS/Selectors/pseudo-classes/:first-child*/
+/*the left column coloring*/
+td:first-child{
+  background-color: black;
+}
+
+/*the first row coloring*/
+tr:first-child > td{
+  background-color: black;
+}
+
+/*to make the left corner coral color*/
+tr:first-child > td:first-child {
+  background-color: coral;
+}
+
+#tabs {
+    list-style-type: none;
+    display: inline-block;
+    background: #999;
+    margin: 0;
+    padding: 3px 10px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+    outline-color: black;
+    border: 1px solid black;
+}
+
+.tab{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.error{
+  color:red;
+  font-size: 14pt;
+}

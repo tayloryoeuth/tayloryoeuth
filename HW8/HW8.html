@@ -1,0 +1,52 @@
+<!--
+File: HW8: Scrabble
+Taylor Yoeuth
+Contact: taylor_yoeuth@student.uml.edu
+Currently an Undergrad Computer Science Student
+At UMass Lowell taking course 91.61 GUI Programming I.
+Created August 09,2020
+-->
+
+
+<!--Sources used:
+  https://www.w3schools.com/html/default.asp
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href ="style.css">
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+  <title> HW8 Scrabble </title>
+
+</head>
+  <body>
+
+   <h1> Scrabble </h1>
+   <p> Welcome to my game of scrabble! Enjoy and dont break my website. </p>
+
+   <div id="score">
+     <p id="tiles-left"> Tiles Left: </p>
+     <p id="word" > Word: </p>
+     <p id= "myscore" > Overall Score: </p>
+   </div>
+
+     <div id= "tileboard" >
+       <!-- <img src = "Scrabble_Board_OneLine.png" class="mx-auto d-block" style="width:100%"> -->
+     </div>
+
+     <div id="tileholder">
+       <!-- <img src = "scrabble-tile-holder.webp" class="mx-auto d-block" style="width:40%"> -->
+     </div>
+
+     <div class= "buttonplace">
+       <button type="button" class= "tilebutton" onsubmit="reset()" > Generate Tiles </button>
+       <button type="button" class = "submitbutton"> Submit Tiles </button>
+     </div>
+
+
+     <script src="javascript.js"> </script>
+   </body>
+</html>

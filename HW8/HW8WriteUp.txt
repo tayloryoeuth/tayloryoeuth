@@ -1,0 +1,16 @@
+-getTiles() is used to generate the tiles and to display them randomly to the user. I would create the tiles by pulling the image
+and by creating a class and an id holding that letter allowing it to be pulled out of the images and also made it go random by using
+math and floor.
+-getTotalTiles() is used to get total amount of tiles in the "bag" but did not get the chance to get it working. 
+-draganddrop() was used to get the tiles individual tiles and have them be draggable to be dropped in the scoreboard picture which was the one 
+line score.  I appended the tiles again after theyve been dropped to hold its class and have it's ID. I used an event to remove the tile after it was
+placed down so I wouldnt have a clone of the tile sitting on the tile holder and on the board. I tried pushing it to an array to store
+its value once its placed but I did not get a chance for that working correctly either. I consoled it and it indeed held the correct
+ID which was its letter and element which was its index on the scrabble_board. 
+-Updateboard() was used to have real time score keeping for the user but i did something wrong with the tiles and it did not work
+and startted it up at 15 instead of 0. Tiles would show what tiles you put in the slot which I was very happy seeing that working.
+-getKey() this was used to update the word box with the letter.
+-makeStripSlots() was used to make the slots in the scoreboard which was styled with alittle CSS to make it perfect. 
+
+Button functions didnt have any functionality yet, but wish I had time to do it. Very Fun and a deep learning experience for me with 
+this project, first time doing anything with javascript, HTML, CSS, and JQuery so it was very disappointing not seeing myself finish this project.

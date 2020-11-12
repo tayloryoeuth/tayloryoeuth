@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Everything is in the gh=pages branch.
+Everything is in the gh-pages branch.
 
 Website is: [tayloryoeuth](https://tayloryoeuth.github.io/tayloryoeuth/).
 <!--

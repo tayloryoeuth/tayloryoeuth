@@ -1,8 +1,7 @@
 ### Hi there 👋 My name is Taylor
 
-Everything is in the gh-pages branch.
-
 Website is: [tayloryoeuth](https://tayloryoeuth.github.io/tayloryoeuth/).
+Website I created is (https://bows.netlify.app/)
 <!--
 **tayloryoeuth/tayloryoeuth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
